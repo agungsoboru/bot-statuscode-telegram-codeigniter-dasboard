@@ -21,6 +21,8 @@ app ny punya banyak vulnerability 😁
 
 ada auth/login
 
+Encrypt and Decrypt Support
+
 # reverensi 
 https://github.com/BootsBack/Codeigniter-php-Bootstrap-AdminLTE-Panel-with-user-management
 
