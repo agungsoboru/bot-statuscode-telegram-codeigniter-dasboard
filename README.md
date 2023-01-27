@@ -5,7 +5,7 @@ bot telegram untuk cek jika ada website yang down dengan program python dan dile
 ![image](https://github.com/agungsoboru/bot-statuscode-telegram-codeigniter-dasboard/blob/main/Screenshot%20(538).png)
 
 # keunggulan
-yang pasti ada dashboard 🤦‍♂️
+yang pasti ada dashboard 
 
 bisa tambah dan hapus domain yang akan di cek lewat web
 
@@ -17,7 +17,7 @@ bisa tambah user admin atau staf
 
 bot lognya di interface web
 
-app ny punya banyak vulnerability 😁
+app ny punya banyak vulnerability 
 
 ada auth/login
 
