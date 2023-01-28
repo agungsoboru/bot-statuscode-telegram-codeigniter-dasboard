@@ -1,0 +1,1 @@
+<meta http-equiv="refresh" content="0; url=http://ipinternal_atau_publik:7000/" />
