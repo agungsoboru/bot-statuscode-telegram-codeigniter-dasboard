@@ -15,7 +15,7 @@ def status_code(domain):
         if request == 200:
             return {"status code": request }
         else:
-            re = requests.get(f"http://api.agungsurya.my.id:11119/status/{domain}").json()
+            re = requests.get(f"http://api.domain:11119/status/{domain}").json()
 
             data = re
             status_code2 = data.get('status code')
