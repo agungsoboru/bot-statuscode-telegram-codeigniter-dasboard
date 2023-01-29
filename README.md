@@ -3,8 +3,8 @@ bot telegram untuk cek jika ada website yang down dengan program python dan dile
 
 # segera upload
 ![image](https://github.com/agungsoboru/bot-statuscode-telegram-codeigniter-dasboard/blob/main/Screenshot%20(538).png)
-![image](https://github.com/agungsoboru/bot-statuscode-telegram-codeigniter-dasboard/blob/main/)
-![image](https://github.com/agungsoboru/bot-statuscode-telegram-codeigniter-dasboard/blob/main/)
+![image](https://github.com/agungsoboru/bot-statuscode-telegram-codeigniter-dasboard/blob/main/bot-telegram.JPG)
+![image](https://github.com/agungsoboru/bot-statuscode-telegram-codeigniter-dasboard/blob/main/bot-telegramm.JPG)
 # keunggulan
 yang pasti ada dashboard 
 
