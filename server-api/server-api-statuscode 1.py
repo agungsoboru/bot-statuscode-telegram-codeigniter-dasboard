@@ -8,10 +8,18 @@ import subprocess
 current_time = datetime.now()
 app = FastAPI()
 
+def random_user_agent():
+    with open("useragent.txt", "r") as f:
+        user_agents = f.readlines()
+    return random.choice(user_agents).strip()
+
 @app.get("/status/{domain}/")
 def status_code(domain):
     try:
-        request = requests.get(f"https://{domain}").status_code
+        headers = {"User-Agent": random_user_agent()}
+        http = "https://"
+        request = requests.get(http+domain, headers=headers).status_code
+        #request = requests.get(f"https://{domain}").status_code
         if request == 200:
             return {"status code": request }
         else:
@@ -27,18 +35,11 @@ def status_code(domain):
     except :
         return {"status code": "internall error" }
 
-
-
-
 @app.get("/api/")
 def api():
     phrases = ["API is online and running smoothly","All systems are operational","API is responding normally","API is available and healthy","API connectivity is confirmed","API is up and running","API is accessible and performing well","API is functioning as expected","API is accessible and responding","API is reachable and operational"]
 
     return (random.choice(phrases))
-
-
-
-
 
 @app.get("/tmux")
 def tmux():
