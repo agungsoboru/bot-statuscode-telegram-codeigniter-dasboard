@@ -6,9 +6,17 @@ import subprocess
 
 app = FastAPI()
 
+def random_user_agent():
+    with open("useragent.txt", "r") as f:
+        user_agents = f.readlines()
+    return random.choice(user_agents).strip()
+
 @app.get("/status/{domain}/")
 def status_code(domain):
-    return {"status code": requests.get(f"https://{domain}").status_code}
+    http = "https://"
+    headers = {"User-Agent": random_user_agent()}
+    return {"status code": requests.get(http+domain, headers=headers).status_code}
+    #return {"status code": requests.get(f"https://{domain}").status_code}
 
 @app.get("/api/")
 def api():
