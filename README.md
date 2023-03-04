@@ -3,6 +3,7 @@ bot telegram untuk cek jika ada website yang down dengan program python dan dile
 
 # Docker image 
 segera hadir
+
 `docker run -it -p 80:80 agungsurya/bot-statuscode:v3 /bin/bash` #dashboard untuk bot
 
 `docker run -it --cap-add=SYS_ADMIN -p 12002:8000 -u agungsurya agungsurya/bot-statuscode:api-server-screenshot-alpine /bin/ash` #note ini api server untuk bot nya yang pertama dengan fitur screnshoot
