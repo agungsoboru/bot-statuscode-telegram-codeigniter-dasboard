@@ -2,7 +2,7 @@
 bot telegram untuk cek jika ada website yang down dengan program python dan dilengkapi dengan dashboardnya menggunakan codeigniter 
 
 # Docker image 
-segera hadir
+segera hadir (belum fix)
 
 `docker run -it -p 80:80 agungsurya/bot-statuscode:v3 /bin/bash` #dashboard untuk bot
 
